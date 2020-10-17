@@ -45,13 +45,15 @@ span.display-block {
   margin: 20px 0 30px 0;
   width: 150px;
 }
-/* Proprietàcheck-list circolari */
+/* Proprietà check-list circolari */
 .fas.fa-check-circle {
   color: #fd7a5a;
   margin-right: 10px;
 }
 /* /Proprietà check-list circolari */
 
+/* Sezione header */
+/* Riga lingua e login */
 header .header-top {
   width: 100%;
   background: 	#f0f8ff;
@@ -93,7 +95,9 @@ header .header-content-right {
   color: #fd7a5a;
   border: 2px solid #fd7a5a;
 }
+/* /Riga lingua e login */
 
+/* Barra del menu */
 .header-menu {
   height: 70px;
   margin-top: 70px;
@@ -115,7 +119,9 @@ header .header-content-right {
 .menu-bar i {
   padding: 0 10px;
 }
+/* /Barra del menu */
 
+/* Sezione jumbotron */
 .header-jumbotron {
   position: relative;
   height: 500px;
@@ -153,9 +159,12 @@ header .header-content-right {
 .header-jumbotron p:last-child {
   font-size: 12px;
 }
+/* /Sezione jumbotron */
+/* /Sezione header */
 
+/* Sezione del Main */
+/* Sezione del cubo */
 main{
-  height: 2000px;
   background: 	#f0f8ff;
 }
 main .main-container-top {
@@ -172,7 +181,9 @@ main .main-content-first-section {
 .main-content-first-section h2 {
   margin-bottom: 40px;
 }
+/* /Sezione del cubo */
 
+/* Sezione features */
 main .main-content-second-section {
   padding: 40px;
   height: 300px;
@@ -216,10 +227,9 @@ main .main-content-second-section {
   margin: 20px 0;
   padding-right: 25px;
 }
+/* /Sezione features */
 
-
-
-
+/* Sezione Marketing,Sales e Service Hub */
 section.column{
   float: left;
   margin: 2% 0;
@@ -256,19 +266,79 @@ section.column{
 section.column.central {
   margin:2% 5%;
 }
-
+/* /Sezione Marketing,Sales e Service Hub */
 
 
 main .main-container-central {
-  height: 400px;
+  /* height: 1000px; */
   background-image: linear-gradient(to right, #05ABB7 0%, #2EBDA5 100%);
+  color: white;
+  text-align: center;
+  padding: 30px 0;
 }
+.main-container-central h2 {
+  font-size:1.8em;
+ padding: 0 10px;
+}
+.main-container-central p#p-motivational {
+  margin: 25px 0;
+  line-height: 1.8;
+}
+
+.main-container-central .data-community {
+  width: 100%;
+  margin: 80px 0;
+}
+.data-community {
+  content: "";
+  display: table;
+  clear: both;
+}
+.main-container-central .box-community {
+  float: left;
+  width: 25%;
+  height: 200px;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+}
+.box-community.top-right {
+  border-right: 0;
+}
+.box-community.bottom {
+  border-bottom: 0;
+}
+.box-community.bottom:last-child {
+  border-right: 0;
+}
+.img-box-community img {
+  height: 40px;
+  margin: 20px 0;
+}
+.box-community h2 {
+  position: relative;
+  display: inline-block;
+  margin: 10px 0;
+  padding: 0;
+  font-size: 2.5em;
+}
+.box-community h2::after {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: inline-block;
+  padding-left: 5px;
+  content: "+";
+  font-size: 22px;
+  font-weight: 400;
+}
+
+
 
 main .main-container-bottom {
   height: 400px;
   background: white;
 }
-
+/* Sezione del Main */
 footer {
   height: 400px;
   background: purple;
