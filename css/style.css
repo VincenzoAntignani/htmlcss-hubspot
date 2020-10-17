@@ -52,6 +52,11 @@ span.display-block {
 }
 /* /Proprietà check-list circolari */
 
+p.p-cont-50 {
+  margin: 20px 0;
+  line-height: 1.6;
+}
+
 /* Sezione header */
 /* Riga lingua e login */
 header .header-top {
@@ -143,20 +148,20 @@ header .header-content-right {
   border-bottom: 2px solid #33475B;
 
 }
-.header-jumbotron h1 {
+.container-50 h1.h1-cont-50 {
   padding-top: 40px;
   font-size: 45px;
 }
-.header-jumbotron p {
+.container-50 p.p-cont-50 {
   margin: 20px 0;
   line-height: 1.6;
 }
-.header-jumbotron a {
+.container-50 a.a-cont-50 {
   display: inline-block;
   text-decoration: none;
   padding: 20px 40px;
 }
-.header-jumbotron p:last-child {
+.header-jumbotron .container-70 .container-50 p.p-cont-50:last-child {
   font-size: 12px;
 }
 /* /Sezione jumbotron */
@@ -268,7 +273,7 @@ section.column.central {
 }
 /* /Sezione Marketing,Sales e Service Hub */
 
-
+/* Sezione dati Community */
 main .main-container-central {
   /* height: 1000px; */
   background-image: linear-gradient(to right, #05ABB7 0%, #2EBDA5 100%);
@@ -331,13 +336,93 @@ main .main-container-central {
   font-size: 22px;
   font-weight: 400;
 }
+/* /Sezione dati Community */
 
-
-
+/* Sezione finale mai main */
 main .main-container-bottom {
-  height: 400px;
   background: white;
 }
+.main-container-bottom::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Sezione Aziende Partners */
+.partner-companies {
+  padding: 2% 5%;
+}
+.partner-companies::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.numbers-companies {
+  display: block;
+  float: left;
+  width: 200px;
+  height: 150px;
+}
+.numbers-companies h2 {
+  font-size: 2.7em;
+  margin-bottom: 20px;
+}
+.numbers-companies p {
+  line-height: 1.6;
+}
+.logos-companies {
+  float: right;
+  width: 65%;
+  height: 120px;
+}
+.logos-compaines::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.img-logos-compaines {
+  position: relative;
+  float: left;
+  width: 25%;
+  height: 50%;
+}
+.img-logos-compaines img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  margin: 0 auto;
+  padding: 15px 5px;
+  width: 130px;
+  text-align: center;
+}
+/* Sezione Aziende Partners */
+
+/* Sezione start growing */
+.main-container-bottom .container-50 {
+  float: left;
+  padding-right: 25px;
+}
+.main-container-bottom h1.h1-cont-50 {
+  font-size: 2em;
+}
+.main-container-bottom .container-50 p.p-cont-50:last-child {
+  font-size: 12px;
+}
+.img-woman {
+  float: right;
+  width: 300px;
+  height: 380px;
+  margin-top: 40px;
+}
+.img-woman img {
+  width: 300px;
+}
+/* /Sezione start growing */
+
+
+/* /Sezione finale mai main */
 /* Sezione del Main */
 footer {
   height: 400px;
