@@ -391,11 +391,8 @@ main .main-container-bottom {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  display: block;
-  margin: 0 auto;
   padding: 15px 5px;
   width: 130px;
-  text-align: center;
 }
 /* Sezione Aziende Partners */
 
