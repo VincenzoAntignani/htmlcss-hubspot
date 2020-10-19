@@ -226,19 +226,18 @@ main .main-content-second-section {
 }
 /* /Sezione features */
 
-/* Check list senza font amesone */
+/* Check list senza font awesone */
 span.check-list {
   display: inline-block;
-  font-size: 11px;
   text-align: center;
   background: #fd7a5a;
   color: white;
   margin-right: 10px;
   width: 16px;
-  height: 16px;
+  line-height: 16px;
   border-radius: 50%;
 }
-/* Check list senza font amesone */
+/* Check list senza font awesone */
 
 
 /* Sezione Marketing,Sales e Service Hub */
@@ -274,13 +273,15 @@ section.column{
   font-size: 1.1em;
 }
 .column.box-white li.left-alignment {
+  display: block;
   text-align: left;
+  margin: 5px 0;
 }
 .column.box-white a {
   margin-top:50px;
 }
 section.column.central {
-  margin:2% 5%;
+  margin:3% 5%;
 }
 /* /Sezione Marketing,Sales e Service Hub */
 
@@ -496,7 +497,6 @@ div.box-widget {
   box-shadow: 0 0 15px lightgrey;
 }
 .widget-img img{
-  display: inline-block;
   width: 70px;
   position: absolute;
   top: -35px;
@@ -525,7 +525,7 @@ div.box-widget {
   background: #435B76;
   color: white;
   padding: 20px;
-  font-size: 40px;
+  font-size: 30px;
   border-radius: 50%;
 }
 /* Sezione bonus widget */
