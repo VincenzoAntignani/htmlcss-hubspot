@@ -462,3 +462,55 @@ footer .container-70 a {
   display: inline-block;
   padding-left: 15px;
 }
+
+/* Sezione bonus widget */
+div.box-widget {
+  width: 250px;
+  height: 250px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 50px;
+}
+.widget-img {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  background: white;
+  border-radius: 7px;
+  box-shadow: 0 0 15px lightgrey;
+}
+.widget-img img{
+  display: inline-block;
+  width: 70px;
+  position: absolute;
+  top: -35px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.close-chat {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.text-widget {
+  position: absolute;
+  top: 30px;
+}
+.text-widget p {
+  padding: 10px;
+  font-size: 15px;
+  line-height: 1.6;
+}
+.widget-message {
+  text-align: right;
+  margin: 10px 5px;
+}
+.widget-message i {
+  background: #435B76;
+  color: white;
+  padding: 20px;
+  font-size: 40px;
+  border-radius: 50%;
+}
+/* Sezione bonus widget */
